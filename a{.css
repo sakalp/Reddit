@@ -1,0 +1,18 @@
+h1 {
+    font-size: 5em;
+}
+.blog-post {
+    width: 800px;
+    margin-left: 100px!important;
+}
+#food-header {
+    color:red
+}
+
+a:visited{
+   color: red
+}
+a:hover{
+    color:green
+    text decoration:none
+}
