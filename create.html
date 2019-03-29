@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>create new post</title>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+    </head>
+    <body>
+        <form
+        class="create-form"
+        name="create-form"
+        action="create.html"
+        method="POST"
+        >
+        <span class="form-table">post Title</span>
+        <br/>
+        <input
+        type="text"
+        name="post-body"
+        class="form-data"
+        plaaceholder="Enter post body,please"
+        />
+        <small id="emailHelp"class="form-text-muted"
+        >we'll never share your post title with anyone else.</small>
+        
+        <br/>
+        <textarea
+        name="post-body"
+        class="form-data"
+        placeholder="Enter post body,please"
+        ></textarea>
+<br/>
+<span class="form-label">public</span></br>
+<input type="checkbox" name="publicity"/>
+<br/>
+<span class="form-label">Bun</span><br/>
+<input type="radio" name="Bun" value="Food"/>Food<br/>
+<input type="radio" name="Bun "value="Drink"/>Drink<br/Drink>
+<br/>
+<input type="submit" value="create" class="btn btn-success"/>
+<br/>
+    </form>
+    </body>
+</html>

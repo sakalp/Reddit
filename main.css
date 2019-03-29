@@ -1,3 +1,8 @@
+i.fas.fa-car {
+    font-size: 50px;
+    color: black;
+}
+
 body{
     background: #bdbdbd;
 }
@@ -5,7 +10,7 @@ body{
 .index-body{
     background-image: url("image/rabbit.jpeg");
     background-repeat: no-repeat;
-    
+
 }
 h1 {
     font-size: 5em;
@@ -27,11 +32,13 @@ h1 {
     width: 400;
 }
 #food-header {
-    color:red
+    color:red;
 }
 
 a:visited{
-   color: red
+   color: red;
+   background-color: transparent;
+   text-decoration: none;
 }
 a:hover {
     color:green;
@@ -93,3 +100,13 @@ td{
     border: 1px solid black;
     padding: 10px;
 }
+h2 i{
+    font-size: 20px;
+    color: black;
+}
+.create-form{
+    margin: 20px;
+    }
+    .form-label{
+        margin-bottom: 10px !important;
+    }
